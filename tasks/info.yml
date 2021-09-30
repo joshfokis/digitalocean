@@ -1,0 +1,4 @@
+- name: Gather information about user account
+  tags: do_status
+  community.digitalocean.digital_ocean_account_info:
+    api_token: "{{ token }}"
