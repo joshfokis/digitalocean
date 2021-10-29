@@ -2,3 +2,6 @@
   tags: do_status
   community.digitalocean.digital_ocean_account_info:
     api_token: "{{ token }}"
+    register: dostatus
+
+- debug: var=dostatus
